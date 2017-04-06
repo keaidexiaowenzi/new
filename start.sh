@@ -13,4 +13,7 @@ else
 	echo -n "设置的密码: "
 	read pwd
 fi
-node local.js -s $app+".herokuapp.com" -l 1080 -m $type -k $pwd -r 80
+
+url=${app}".herokuapp.com"
+
+node local.js -s $url -l 1080 -m $type -k $pwd -r 80

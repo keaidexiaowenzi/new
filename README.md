@@ -82,3 +82,10 @@ Setting 页面 ——> Reveal Config Vars，设置参数如下图：
 
 5. 现在你就可以访问 Google 了
 ![](https://github.com/521xueweihan/shadowsocks-heroku/blob/master/img/7-min.png)
+
+### 使用配置文件启动
+本地创建config.text
+	写入app=xxx  //app名称
+		type=xxxx  //设置的加密算法
+		pwd=xxxx  //设置的密码
+	执行 bash start.sh	
