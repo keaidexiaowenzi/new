@@ -66,7 +66,7 @@ heroku Setting 页面 ——> Reveal Config Vars，设置参数如下图：
 
 ### 四、启动本地 client：
 1. **进到本项目目录**，执行 `$ npm install` 命令，安装依赖的库（如没有 npm ，请自行安装 nodeJs ，[npm安装依赖慢](http://www.cnblogs.com/nuoxiang/p/5491730.html)）
-~~2. 启动本地 client，`node local.js -s 你的app名称.herokuapp.com -l 1080 -m 设置的加密算法 -k 设置的密码 -r 80`~~
+2. ~~启动本地 client，`node local.js -s 你的app名称.herokuapp.com -l 1080 -m 设置的加密算法 -k 设置的密码 -r 80`~~
 
 #### 使用配置文件启动
 本地项目文件夹中创建 `config.text` （不创建直接执行 `$ bash start.sh` 也可以，每次需要输入名称密码算法）
@@ -84,7 +84,7 @@ pwd=xxxx  //设置的密码
 ### 五、最后
 1. 本项目下的 `download` 下找到 `SwitchyOmega.crx`，打开 `Chrome` 浏览器的扩展程序页面 chrome://extensions ，把SwitchyOmega.crx文件拖放到浏览器扩展程序页面安装。
 
-2. 配置：SwitchyOmega：导入本项目中 `GFWList.bak` 配置文件，
+2. 打开 SwitchyOmega，导入本项目中 `GFWList.bak` 配置文件，
 
 ![](https://github.com/nuoxiang/shadowsocks-heroku/blob/master/img/8.png)
 
