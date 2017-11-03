@@ -84,6 +84,8 @@ pwd=xxxx  //设置的密码
 ### 五、最后
 1. 本项目下的 `download` 下找到 `SwitchyOmega.crx`，打开 `Chrome` 浏览器的扩展程序页面 chrome://extensions ，把SwitchyOmega.crx文件拖放到浏览器扩展程序页面安装。
 
-2. 配置：SwitchyOmega：导入本项目中 `GFWList.bak` 配置文件，然后情景模式选择自动切换，试试 https://www.google.com
+2. 配置：SwitchyOmega：导入本项目中 `GFWList.bak` 配置文件，然后情景模式选择自动切换，试试 https://www.google.com 吧
+
+
 ![](https://github.com/nuoxiang/shadowsocks-heroku/blob/master/img/7.png)
 
