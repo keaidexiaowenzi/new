@@ -85,8 +85,11 @@ Setting 页面 ——> Reveal Config Vars，设置参数如下图：
 
 ### 使用配置文件启动
 SwitchyOmega导入GFWList.bak配置文件 
-本地创建config.text
-	写入app=xxx  //app名称
-		type=xxxx  //设置的加密算法
-		pwd=xxxx  //设置的密码
-	执行 bash start.sh	
+本地创建 `config.text`
+写入
+```
+app=xxx  //app名称
+type=xxxx  //设置的加密算法
+pwd=xxxx  //设置的密码
+```
+执行 `$ bash start.sh`	
