@@ -68,7 +68,7 @@ heroku Setting 页面 ——> Reveal Config Vars，设置参数如下图：
 2. ~~启动本地 client，`node local.js -s 你的app名称.herokuapp.com -l 1080 -m 设置的加密算法 -k 设置的密码 -r 80`~~
 
 #### 使用配置文件启动
-本地项目文件夹中创建 `config.text` （不创建直接执行 `$ bash start.sh` 也可以，每次需要输入名称密码算法）
+本地项目文件夹中创建 `config.txt` （不创建直接执行 `$ bash start.sh` 也可以，每次需要输入名称密码算法）
 
 写入(不要写入 `//` 后面的东西)
 ```
